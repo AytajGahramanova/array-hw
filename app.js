@@ -14,32 +14,32 @@
 
 // TASK - 2 -->  Ən böyük və ən kiçiklərindən başqa
 // N sayda tam ədədlərdən ibarət massiv verilir. Bu massivin ən kiçik və ən böyük elementlərindən başqa bütün elementlərinin cəmini tapın.//
-// let arr = [2, 4, 8, 10, 5];
-// let sum = 0;
+// const arr = [6, 1, 1, 2, 2, 7, 7, 7];
 // let max = arr[0];
+// let min = arr[0];
+// let maxCount = 0;
+// let minCount = 0;
+// let sum = 0;
+
 // for(let i = 0; i < arr.length; i++){
+//     sum+=arr[i]
 //     if(arr[i] > max){
 //         max = arr[i];
+//         maxCount = 1;
+//     }else if(arr[i] == max) {
+//         maxCount++;
 //     }
 // }
-// console.log("max: ", max);
-
-// let min = arr[0];
-// for(let i = 0; i < arr.length; i++){
+// for(i=0; i<arr.length;i++){
 //     if(arr[i] < min){
 //         min = arr[i];
+//         minCount = 1;
+//     }else if(arr[i] == min) {
+//         minCount++;
 //     }
 // }
-// console.log("min: ", min);
 
-// for(let i = 0; i < arr.length; i++){
-//     if(arr[i] > max && arr[i] < min){
-//         continue;
-//     }else{
-//         sum += arr[i];
-//     }
-// }
-// console.log(sum - max - min);
+// console.log(sum-max * maxCount - min * minCount);
 
 
 // TASK - 3 --> n tam ədəddən ibarət massiv proqramın girişinə tərs ardıcıllıqla verilmişdir - yəni sonuncudan birinci elementə qədər. Bu massivin ilkin vəziyyətini bərpa edin.
